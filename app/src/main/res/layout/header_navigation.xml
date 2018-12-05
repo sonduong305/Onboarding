@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:padding="16dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:background="@drawable/button_gradient"
+    >
+
+    <ImageView
+        android:layout_gravity="center_horizontal"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/onboard_page2"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tran Ngoc Hieu"
+        android:textColor="@android:color/white"
+        android:paddingTop="5dp"
+        android:layout_marginLeft="12dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email: Otimusblue@gmail.com"
+        android:textColor="@android:color/white"
+        android:paddingTop="5dp"
+        android:layout_marginLeft="12dp"
+        />
+
+
+</LinearLayout>
